@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estiloHeader.css">
+    <link rel="stylesheet" href="css/estiloContactUs.css">
+    <link rel="stylesheet" href="css/estiloFooter.css" type="text/css" media="all">
+
+    <title>Document</title>
+</head>
+<body>
+      <!--Header ================================================================================================-->
+      <header>
+        <h1>
+            <img src="img/iconografia.png" width="150px" height="150px">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">QUIÉNES SOMOS</a></li>
+                <li><a href="productCards.html">PRODUCTOS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contactUs.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <h2>
+            <a href="aboutus.html"><img src="img/logoSabana.png" width= "150px" height="150px"></a>
+        </h2>
+    </header>
+    <!--=======================================================================================================-->
+
+    <!--Contactus ==============================================================================================-->
+    <div class="contact-section">
+        <h1>CONTÁCTANOS</h1>
+
+        <div class="border"></div>
+        <form class="contact-form" action="contactUs.html" method="POST">
+            <br>
+        <div class="select">
+            <select name="format" id="format">
+                <option option selected disabled>Indica el Tipo de Solicitud</option>
+                <option value="Peticiones">PETICIONES</option>
+                <option value="Quejas">QUEJAS</option>
+                <option value="Reclamos">RECLAMOS</option>
+                <option value="Sugerencias">SUGERENCIAS</option>
+            </select>
+        </div>   
+
+            <input type="text" class="contact-form-text" placeholder="Tu nombre">
+            <input type="email" class="contact-form-text" placeholder="Tu correo">
+            <input type="text" class="contact-form-text" placeholder="Tu teléfono">
+            <textarea class="contact-form-text" placeholder="Mensaje"></textarea>
+
+        <button type="submit" class="contact-form-btn" onclick="">ENVIAR</button>
+            
+        </form>
+    </div>
+
+    <!--=======================================================================================================-->
+
+    <!--Footer-->
+    <footer>
+        <div class="footercontent">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td class="first">
+                            <div id="iconos">
+                                <img class="iconos" src="img/infood.png" alt="" width="400px" height="200px">
+                            </div>
+                        </td>
+                        <td class="second">
+                                <p id="estiloP">info@innfood.co</p>
+                                <p id="estiloP">Campus del Puente del Común, Km. 7, Autopista Norte de Bogotá. <br> Chía, Cundinamarca, Colombia.</p>
+                                <p id="estiloP">©INNFood</p>
+                                <p id="estiloP">TODOS LOS DERECHOS RESERVADOS.</p>
+                                <p id="estiloP">POLITICAS DE PRIVACIDAD</p>
+                            <div id="social">
+                                <a class="linkedBtn smGlobalBtn" href="#"></a>
+                                <a class="instagramBtn smGlobalBtn" href="#"></a>
+                                <a class="youtubeBtn smGlobalBtn" href="#"></a>
+                            </div>
+                            
+                        </td>
+                        <td class="third">
+                            <div id="iconos">
+                                <img src="img/iconografia.png" alt="" width="300px" height="300px">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+    </footer>
+    <!--.Footer-->
+   
+</body>
+</html>
